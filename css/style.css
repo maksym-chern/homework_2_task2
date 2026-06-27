@@ -144,31 +144,27 @@ h1 {
     margin: 12px 0;
 }
 
-/* =========================================
-   5. СЕКЦІЯ RSVP (ЗАКЛИК ДО ДІЇ)
-   ========================================= */
-
 .rsvp-section {
-    background-color: #ffdddd; /* Рідний ніжно-рожевий */
+    background-color: #ffdddd;
     padding: 64px 16px;
     text-align: center;
     
-    letter-spacing: 4px;       /* Роздає розрядку ВСІМ елементам секції */
+    letter-spacing: 4px;
 }
 
 .rsvp-title {
-    color: #000000;            /* Чисто чорний зі твого скріна */
+    color: #000000;
     font-size: 36px;
-    font-weight: 400;          /* Тонший за звичайні заголовки */
+    font-weight: 400;
     margin-top: 0;
     margin-bottom: 24px;
 }
 
 .rsvp-text {
     color: #000000;
-    font-size: 15px;           /* Базовий розмір тексту шаблону */
+    font-size: 15px;
     margin-top: 0;
-    margin-bottom: 32px;       /* Повітря до кнопки */
+    margin-bottom: 32px;
 }
 
 .rsvp-btn {
@@ -176,4 +172,21 @@ h1 {
     color: white;
     padding: 8px 60px;
     border-radius: 4px;
+}
+
+.site-footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 32px 16px;
+    font-size: 15px;
+}
+
+.site-footer p {
+    margin: 0; 
+}
+
+.site-footer a {
+    color: #ffffff;
+    text-decoration: underline;
 }
