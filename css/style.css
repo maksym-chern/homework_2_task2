@@ -1,0 +1,12 @@
+/* 1. Знищуємо білий відступ браузера по краях монітора */
+body {
+    margin: 0;
+}
+
+/* 2. Кажемо хідеру: «стань заввишки в весь екран і застели фотографію» */
+.hero {
+    height: 100vh;
+    background-image: url('../images/wedding_couple.jpg');
+    background-size: cover;
+    background-position: center;
+}
