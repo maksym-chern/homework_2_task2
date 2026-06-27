@@ -102,3 +102,44 @@ h1 {
     margin: 10px 0;
     line-height: 1.5;
  }
+
+.wedding-section {
+    background-color: #ffdddd;
+    padding: 64px 16px;
+    text-align: center; 
+}
+
+.wedding-hall-img {
+    width: 100%;
+    max-width: 980px;
+    margin-bottom: 48px;
+    filter: grayscale(100%);
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details-col {
+    display: inline-block;
+    vertical-align: top;
+    
+    width: 45%;
+    max-width: 420px;
+    min-width: 280px;
+    margin: 0 15px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.details-col h3 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.details-col p {
+    font-size: 15px;
+    margin: 12px 0;
+}
