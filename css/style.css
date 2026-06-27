@@ -34,3 +34,43 @@ h1 {
     font-weight: 700;
     letter-spacing: 4px;
 }
+
+.second-section {
+    background-color: #ffdddd;
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.section-title {
+    color: rgb(117, 117, 117);
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.second-img {
+    width: 100%;
+    max-width: 980px;
+    filter: grayscale(100%);
+    margin: 32px 0; 
+}
+
+.second-text {
+    max-width: 980px;
+    margin: 0 auto;
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
