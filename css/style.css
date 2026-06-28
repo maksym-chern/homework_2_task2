@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
@@ -12,10 +16,8 @@ body {
     background-image: url('../images/wedding_couple.jpg');
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 38vh;  
+    text-align: center;
 }
 
 h1 {
@@ -84,10 +86,7 @@ h1 {
     background-size: cover;
     background-position: center;
     background-image: url('../images/flowers.jpg');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 40vh;
     text-align: center;
 }
 
@@ -199,7 +198,7 @@ h1 {
     position: fixed;
     bottom: 0; 
     left: 0;
-    width: 100%;
+    width: 100%;    
     background-color: #ffffff;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
