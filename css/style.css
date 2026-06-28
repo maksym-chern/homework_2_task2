@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
@@ -189,4 +193,42 @@ h1 {
 .site-footer a {
     color: #ffffff;
     text-decoration: underline;
+}
+
+.main-nav {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    text-align: center;
+    font-size: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    width: 25%;
+}
+
+.nav-list a {
+    display: block;
+    padding: 16px 0;
+    
+    font-size: 15px; 
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.nav-list a:hover {
+    background-color: #ccc;
+    color: #000;
 }

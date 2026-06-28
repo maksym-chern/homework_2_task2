@@ -10,17 +10,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="hero">
+    <header id="home" class="hero">
         <h1>Jane & John</h1>
         <p class="subtitle">Are getting married</p>
         <time class="event-date" datetime="2017-07-17">17.07.2017</time>
     </header>
 
-    <section class="second-section">
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Jane & John</a></li>
+            <li><a href="#wedding">Wedding</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="second-section">
         <h2 class="section-title">Jane & John</h2>
         <img src="images/wedding_couple2.jpg" alt="Jane and John kissing" class="second-img">
         <p class="second-text">You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a href="#" class="btn">Wedding Details</a>
+        <a href="#wedding" class="btn">Wedding Details</a>
     </section>
 
     <section class="invite-section">
@@ -28,7 +37,7 @@
         <p class="invite-subtitle">Of course..</p>
     </section>
 
-    <section class="wedding-section">
+    <section id="wedding" class="wedding-section">
         <h2 class="section-title">THE WEDDING</h2>
         
         <img src="images/wedding_location.jpg" alt="Wedding hall" class="wedding-hall-img">
@@ -47,7 +56,7 @@
 
     </section>
 
-    <section class="rsvp-section">
+    <section id="rsvp" class="rsvp-section">
         <h2 class="rsvp-title">HOPE YOU CAN MAKE IT!</h2>
         <p class="rsvp-text">Kindly Respond By <time datetime="2017-01">January, 2017</time></p>
         <a href="#" class="btn rsvp-btn">RSVP</a>
